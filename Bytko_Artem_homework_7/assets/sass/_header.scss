@@ -4,9 +4,6 @@ header{
   .navbar-logo{
     text-decoration: none;
   }
-  .nav-item{
-    background-color: #333;
-  }
 }
 .navbar{
   padding: 0;
@@ -15,12 +12,10 @@ header{
   li{
     margin: 0 15px;
   }
-
 }
 
-
 a.nav-link{
-  color: #fff;
+  color: #635c73;
   font-size: 16px;
   font-weight: 700;
 }
@@ -32,9 +27,6 @@ a.nav-link{
     margin: 70px 50px 50px;
   }
   }
-a.nav-link:hover{
-  color: $color-special;
-}
 
 .navbar-logo{
   display: flex;
@@ -53,13 +45,17 @@ a.nav-link:hover{
       color: #8d81ac;
     }
   }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .nav-item {
     border: 1px solid #3a3939;
     background-color: #333;
-  }
-  a.nav-link{
-    margin: 20px;
+    a.nav-link {
+      color: #fff;
+      margin: 20px;
+    }
+    a.nav-link:hover{
+      color: $color-special;
+    }
   }
 }
 @media (min-width: 400px) {
