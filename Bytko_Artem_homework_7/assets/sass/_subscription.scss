@@ -1,0 +1,27 @@
+.subscription {
+  background-color: $bg-section;
+  color: #323232;
+  padding: 50px 0;
+  .email-label {
+    margin-top: 15px;
+    color: $color-subtitle;
+    font-size: $important-info;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  .email {
+    max-width: 290px;
+    height: 40px;
+    margin: 20px 20px 20px 0;
+    padding-left: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+  }
+  .button {
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,27 @@
+.feature {
+  background-color: $bg-section;
+  padding-top: $standart-margin;
+  h2 {
+    width: 100%;
+    text-align: center;
+    text-transform: initial;
+  }
+}
+
+.skills {
+  margin-top: $standart-margin;
+}
+
+.skills_text {
+  p {
+    font-size: $size-main-text-sm;
+    color: $color-desc;
+  }
+}
+
+.code {
+  position: relative;
+  height: 705px;
+  bottom: -50px;
+  background-image: url("../img/code-desk.png");
+}

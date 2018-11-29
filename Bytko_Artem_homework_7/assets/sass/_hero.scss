@@ -1,0 +1,26 @@
+.hero {
+  background-image: url("../img/img-desk.png");
+  background-position: center;
+  padding: 90px 0 0;
+  height: 760px;
+  .button {
+    position: relative;
+    bottom: -60px;
+  }
+}
+
+.hero-title {
+  font-size: 82px;
+  color: $color-section-title-light;
+  font-weight: bold;
+}
+
+.desc {
+  font-size: $desc;
+  color: $main-color;
+}
+
+.version {
+  font-size: $size-main-text-lg;
+  color: #848e97;
+}

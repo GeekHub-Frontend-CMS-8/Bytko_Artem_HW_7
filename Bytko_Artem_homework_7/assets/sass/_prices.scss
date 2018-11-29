@@ -1,0 +1,78 @@
+.prices {
+  background-color: #4b3b4e;
+  background-image: url("../img/pricing-background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 15px 0 40px;
+  h3 {
+    color: #fff;
+    font-size: $desc;
+    text-transform: uppercase;
+  }
+}
+.title-block {
+  max-width: 255px;
+  margin: 20px auto 0;
+  padding: 45px 0 35px;
+  background-color: rgba(255, 255, 255, 0.06);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.pack {
+  max-width: 255px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.11);
+  color: #fff;
+  text-align: center;
+  .prices-elements{
+    padding: 0 15px;
+  }
+  .value{
+    display: inline-block;
+    margin: 35px 0 25px;
+    font-size: 60px;
+    font-weight: bold;
+  }
+  .period-of-validity{
+    display: block;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .prices-include{
+    font-size: $size-main-text-lg;
+    text-transform: capitalize;
+  }
+  .prices-include:before{
+    margin: 40px auto 30px;
+    display: block;
+    content: '';
+    height: 5px;
+    width: 60px;
+    background-color: $main-color;
+  }
+  .purchase-link{
+    display: inline-block;
+    margin: 40px 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    font-size: 15px;
+  }
+  .students{
+    margin-top: 60px;
+  }
+  .purchase-link:hover{
+    color: #fff;
+
+  }
+}
+.prices-desc{
+  max-width: 820px;
+  margin: 40px auto;
+  font-size: $size-main-text-sm;
+  color: $color-for-dark-bg;
+}
+
+

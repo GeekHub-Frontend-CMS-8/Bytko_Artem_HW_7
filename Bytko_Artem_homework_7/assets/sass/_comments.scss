@@ -1,0 +1,88 @@
+
+.response {
+  padding: 0 25px 25px;
+  text-align: center;
+}
+
+.user_comments {
+  display: inline-block;
+  @include flex(center);
+  .text_message {
+    margin-left: 25px;
+  }
+  .carousel-control-next-icon {
+    background-image: none;
+  }
+}
+
+.name {
+  color: $color-subtitle;
+  font-weight: 700;
+  font-size: $desc;
+}
+
+.username {
+  color: $main-color;
+  font-size: $size-main-text-lg;
+}
+
+.text_message {
+  font-size: $size-main-text-lg;
+  color: #333;
+  .account {
+    color: $main-color;
+  }
+}
+
+/* carousel*/
+.carousel {
+  margin-top: $standart-margin;
+  i {
+    font-size: 30px;
+    color: $color-desc;
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.comments {
+  padding: 50px 0;
+  .button {
+    margin: 0 auto;
+    max-width: 280px;
+    display: block;
+    text-align: center;
+    padding: 15px 25px;
+    border-radius: 2px;
+    text-decoration: none;
+  }
+  .social-groups {
+    padding: 0 24%;
+  }
+  .facebook {
+    color: #d4d4d4;
+    background-color: #3b5998;
+  }
+  .twitter {
+    color: #d4d4d4;
+    background-color: #26a6d1;
+  }
+  .github {
+    color: #000;
+    background-color: #f3f3f3;
+  }
+  .subscribers {
+    display: inline-block;
+    margin: 20px 0 30px;
+    color: $color-desc;
+    font-size: $size-main-text-sm;
+  }
+}
+
+

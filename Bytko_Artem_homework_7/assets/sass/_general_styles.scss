@@ -1,0 +1,45 @@
+body {
+  font-family: $font-family-main;
+}
+
+@mixin flex($justify_content) {
+  display: flex;
+  justify-content: $justify_content;
+}
+
+.button {
+  padding: 10px 35px;
+  background-color: $bg-btn;
+  font-size: $size-btn;
+  font-weight: 700;
+  color: $color-btn;
+  border: 1px solid $color-btn;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
+
+.button:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+h2 {
+  color: $color-section-title-dark;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: $color-subtitle;
+  font-size: $size-main-text-lg;
+  text-transform: capitalize;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+@media (min-width: 400px) {
+
+}

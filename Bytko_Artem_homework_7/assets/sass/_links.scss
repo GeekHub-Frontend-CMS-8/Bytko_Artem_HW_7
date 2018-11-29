@@ -1,0 +1,41 @@
+.links {
+  padding: 60px 0;
+  border-bottom: 1px solid $color-desc;
+}
+
+.upgrade {
+  .links-subtitle {
+    color: #323232;
+  }
+}
+
+.links-title {
+  margin: 40px 0;
+  color: #d3d1da;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.links-subtitle {
+  font-size: $size-main-text-lg;
+  color: $main-color;
+  font-weight: bold;
+}
+
+.links-text {
+  display: block;
+  margin: 20px 0 30px;
+  font-size: $size-main-text-sm;
+  color: $color-desc;
+}
+
+.link-btn {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  font-weight: bold;
+  font-size: $size-main-text-sm;
+  color: $main-color;
+}
+.link-btn:hover{
+  color: $main-color;
+}

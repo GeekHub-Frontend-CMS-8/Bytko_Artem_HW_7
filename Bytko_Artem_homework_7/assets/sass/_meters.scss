@@ -1,0 +1,34 @@
+.dawnload_btn {
+  position: relative;
+  bottom: 25px;
+  display: inline-block;
+  margin: 0 auto;
+  .dawnload_desc {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: $size-main-text-sm;
+    color: #848e97;
+    text-transform: capitalize;
+  }
+}
+
+.meters {
+  h2 {
+    margin: 40px 0 $standart-margin;
+    text-transform: uppercase;
+  }
+  p {
+    font-size: $size-main-text-lg;
+    opacity: 0.8;
+    color: #323232;
+    margin-bottom: 40px;
+  }
+  ul {
+    margin-bottom: $standart-margin;
+  }
+  li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+}
